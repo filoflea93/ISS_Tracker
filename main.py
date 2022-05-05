@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import time
 
-mpl.rcParams['toolbar'] = 'None' 
+plt.rcParams['toolbar'] = 'None' 
 
 def animate(i):
 
