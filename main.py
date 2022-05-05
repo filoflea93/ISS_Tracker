@@ -24,7 +24,7 @@ def animate(i):
 
     print("Latitude: " + str(iss_latitude) + " Longitude: " + str(iss_longitude) + " Altitude: " + str(iss_altitude) + " Speed: " + str(iss_velocity))
 
-    plt.plot(iss_longitude, iss_latitude, 'ro', markersize=2)
+    plt.plot(iss_longitude, iss_latitude, 'ro', markersize=1)
 
 figure = plt.figure()
 ani = animation.FuncAnimation(figure, animate, fargs=(), interval=1000)
