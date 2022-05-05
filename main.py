@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import time
 
+mpl.rcParams['toolbar'] = 'None' 
+
 def animate(i):
 
     iss_api_url = "https://api.wheretheiss.at/v1/satellites/25544"
