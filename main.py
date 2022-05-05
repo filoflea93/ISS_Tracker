@@ -30,7 +30,7 @@ def animate(i):
 
 figure = plt.figure()
 ani = animation.FuncAnimation(figure, animate, fargs=(), interval=1000)
-plt.xlim([-150, 180])
+plt.xlim([-180, 180])
 plt.ylim([-80, 80])
 plt.show()
 
